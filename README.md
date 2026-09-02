@@ -1,6 +1,6 @@
 # Applied Machine Learning & Neural Networks Repository
 
-A comprehensive collection of applied machine learning, statistical modeling, and deep learning projects completed across undergraduate coursework in Machine Learning and Advanced Applied Data Science (ISAT 341 & ISAT 449).
+A comprehensive collection of applied machine learning, statistical modeling, and deep learning projects completed across undergraduate coursework in Machine Learning and Advanced Applied Data Science.
 
 This repository demonstrates a complete learning curve in predictive modeling: beginning with first-principles mathematical algorithm design in pure NumPy, advancing through supervised classification and regression pipelines in Scikit-Learn, and culminating in multi-layer neural network architectures and multi-modal deep learning applications (Computer Vision & Audio Processing).
 
