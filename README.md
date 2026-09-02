@@ -13,7 +13,7 @@ Designed to showcase end-to-end technical competencies for data science, data en
 ### Key Highlights
 * **First-Principles AI Engineering:** Built custom object-oriented estimators (`Perceptron`, `AdalineGD`) using pure NumPy vectorization and batch gradient descent without reliance on high-level ML frameworks.
 * **Multi-Modal Deep Learning & Feature Extraction:** Applied Scikit-Learn `MLPClassifier` architectures across Computer Vision ($28\times28$ pixel matrices) and Audio AI (extracting acoustic features like MFCCs, Chroma, and Mel Spectrograms via `librosa`).
-* **Pipeline Optimization & Diagnostics:** Engineered robust data processing workflows incorporating feature scaling (`StandardScaler`), hyperparameter tuning, loss curve convergence diagnostics, and model serialization (`.pkl`) for downstream deployment.
+* **Pipeline Optimization & Diagnostics:** Engineered robust data processing workflows incorporating feature scaling (`StandardScaler`), hyperparameter tuning, loss curve convergence diagnostics, and model serialization for downstream deployment.
 * **Rigorous Model Evaluation:** Implemented industry-standard validation metrics—including precision-recall trade-offs, F1-scores, multi-class confusion matrices, and $Z$-statistic hypothesis testing to benchmark custom algorithms against enterprise frameworks.
 
 ---
@@ -61,9 +61,11 @@ Machine-Learning/
 
 ## 📊 Foundational Machine Learning Concepts Demonstrated
 
-* **Mathematical Foundations:** Vectorized matrix multiplication ($W^T X + b$), gradient descent weight updates, and loss curve diagnostic monitoring.
-* **Data Preprocessing & Scaling:** Feature normalization (`MinMaxScaler` vs. `StandardScaler`), array flattening, and handling class distribution imbalances to prevent algorithmic bias.
-* **Model Validation:** Evaluating performance using confusion matrices, precision-recall trade-offs, F1-scores, and two-sample statistical hypothesis testing ($Z$-scores).
+* **First-Principles Math & Vectorized Optimization:** Engineered object-oriented classifiers (`Perceptron`, `AdalineGD`) using pure NumPy array operations ($W^T X + b$). Derived and implemented batch gradient descent weight update rules ($\Delta w = \eta X^T (y - \hat{y})$) to minimize Sum-of-Squares Error (SSE) loss functions without high-level framework abstraction.
+* **Multi-Modal Feature Extraction & Signal Processing:** Processed unstructured audio signals by extracting time-frequency acoustic representations (13–40 Mel-Frequency Cepstral Coefficients, Chroma STFT, and Mel Spectrograms) via `librosa`. Formatted high-dimensional Computer Vision inputs via 2D matrix flattening ($28\times28 \rightarrow 784$ feature vectors) for neural network ingest.
+* **Preprocessing, Scaling & Diagnostic Convergence:** Analyzed gradient stability across unscaled vs. standardized features using `StandardScaler` ($\mu=0, \sigma=1$) and `MinMaxScaler`. Built loss curve diagnostic visualizers to detect exploding/vanishing gradients, learning rate oversaturations ($\eta$), and optimal convergence epochs.
+* **Rigorous Validation & Hypothesis Testing:** Implemented multi-class confusion matrices, precision-recall trade-offs, macro/micro F1-scores, and cross-validation pipelines. Applied two-sample $Z$-statistic hypothesis testing to establish statistically significant performance deltas between custom NumPy estimators and Scikit-Learn baselines.
+* **Model Pipeline Architecture & Deployment:** Integrated feature scaling, hyperparameter tuning, and estimator execution into reproducible Scikit-Learn `Pipeline` workflows. Serialized fully trained model instances into binary `.pkl` payloads via `pickle` for inference deployment.
 
 ---
 
