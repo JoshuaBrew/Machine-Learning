@@ -10,7 +10,7 @@ This repository demonstrates a complete learning curve in predictive modeling: b
 
 Designed to showcase end-to-end technical competencies for data science, data engineering, and machine learning roles, this repository highlights a complete progression across classical statistical modeling, custom algorithm development, and modern multi-modal AI architectures.
 
-### Key Highlights for Hiring Teams
+### Key Highlights
 * **First-Principles AI Engineering:** Built custom object-oriented estimators (`Perceptron`, `AdalineGD`) using pure NumPy vectorization and batch gradient descent without reliance on high-level ML frameworks.
 * **Multi-Modal Deep Learning & Feature Extraction:** Applied Scikit-Learn `MLPClassifier` architectures across Computer Vision ($28\times28$ pixel matrices) and Audio AI (extracting acoustic features like MFCCs, Chroma, and Mel Spectrograms via `librosa`).
 * **Pipeline Optimization & Diagnostics:** Engineered robust data processing workflows incorporating feature scaling (`StandardScaler`), hyperparameter tuning, loss curve convergence diagnostics, and model serialization (`.pkl`) for downstream deployment.
@@ -25,7 +25,6 @@ Designed to showcase end-to-end technical competencies for data science, data en
 * **Data Manipulation & Linear Algebra:** NumPy, Pandas
 * **Signal Processing & Audio AI:** Librosa, Soundfile
 * **Data Visualization:** Matplotlib, Seaborn
-* **Model Serialization:** Pickle (`.pkl`)
 * **Environment:** Jupyter Notebooks, Git
 
 ---
@@ -40,7 +39,6 @@ Machine-Learning/
 │   ├── Lab 0/                                      # Baseline Scikit-Learn Perceptron Training
 │   ├── Lab 7/                                      # Loss Curves & Gradient Descent Optimization
 │   ├── Lab8-/                                      # McCulloch-Pitts (MCP) Logic Gates (AND/OR)
-│   └── classifiers/pkl_objects/                    # Serialized Model Binary Estimators (.pkl)
 │
 ├── statistical-machine-learning/                  # Classical Supervised Machine Learning & Evaluation
 │   ├── Assignment 8/                               # Model Evaluation Metrics & Confusion Matrices
@@ -66,7 +64,6 @@ Machine-Learning/
 * **Mathematical Foundations:** Vectorized matrix multiplication ($W^T X + b$), gradient descent weight updates, and loss curve diagnostic monitoring.
 * **Data Preprocessing & Scaling:** Feature normalization (`MinMaxScaler` vs. `StandardScaler`), array flattening, and handling class distribution imbalances to prevent algorithmic bias.
 * **Model Validation:** Evaluating performance using confusion matrices, precision-recall trade-offs, F1-scores, and two-sample statistical hypothesis testing ($Z$-scores).
-* **Production Readiness:** Serializing trained model estimators into binary `.pkl` files for local deployment and inference without retraining.
 
 ---
 
