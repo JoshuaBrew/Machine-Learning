@@ -35,7 +35,7 @@ Designed to showcase end-to-end technical competencies for data science, data en
 Machine-Learning/
 ├── perceptron-adaline-ml/                          # First-Principles Algorithm Engineering (Pure NumPy)
 │   ├── Activity10/                                 # Custom Python Class for Perceptron Model
-│   ├── Final Exam-PartII-Adaline/                  # Custom Adaline Engine & Capstone Benchmark
+│   ├── Adaline/                                    # Custom Adaline Engine & Capstone Benchmark
 │   ├── Lab 0/                                      # Baseline Scikit-Learn Perceptron Training
 │   ├── Lab 7/                                      # Loss Curves & Gradient Descent Optimization
 │   ├── Lab8-/                                      # McCulloch-Pitts (MCP) Logic Gates (AND/OR)
@@ -71,7 +71,7 @@ Machine-Learning/
 
 ## 🏆 Capstone Showcase: Custom Adaline Engine vs. Optimized Estimators
 
-The repository culminates in a capstone analysis (`perceptron-adaline-ml/Final Exam-PartII-Adaline/`) evaluating the trade-offs between custom-built mathematical models and production-optimized ML libraries using the MNIST Digits dataset.
+The repository culminates in a capstone analysis (`perceptron-adaline-ml/Adaline/`) evaluating the trade-offs between custom-built mathematical models and production-optimized ML libraries using the MNIST Digits dataset.
 
 * **Custom Classifier Architecture (`AdalineGD`):** Implemented an object-oriented Python class featuring native `.fit()`, `.predict()`, and `.score()` methods matching Scikit-Learn’s API design patterns. Weight updates were driven by vectorized batch gradient descent:
   $$\Delta w = \eta \cdot X^T (y - \text{output})$$
